@@ -1,0 +1,20 @@
+.box1 {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    gap: 4rem;
+    flex-basis: calc(50%);
+    padding: 4rem;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--Very-Dark-Magenta);
+}
+
+.box1 p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--Dark-Grayish-Magenta);
+}
