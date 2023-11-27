@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/social-proof-section/static/css/main.2ba64e72.css",
-    "main.js": "/social-proof-section/static/js/main.d32f60dc.js",
+    "main.css": "/social-proof-section/static/css/main.f47368dd.css",
+    "main.js": "/social-proof-section/static/js/main.aeea4458.js",
     "index.html": "/social-proof-section/index.html",
     "static/media/bg-pattern-bottom-desktop.svg": "/social-proof-section/static/media/bg-pattern-bottom-desktop.32aa6571dc718836bdfc.svg",
     "static/media/bg-pattern-top-desktop.svg": "/social-proof-section/static/media/bg-pattern-top-desktop.9d4ba9c9b19e4c6be1e6.svg",
-    "main.2ba64e72.css.map": "/social-proof-section/static/css/main.2ba64e72.css.map",
-    "main.d32f60dc.js.map": "/social-proof-section/static/js/main.d32f60dc.js.map"
+    "static/media/icon-star-none.svg": "/social-proof-section/static/media/icon-star-none.0ef601d58f5072e0faabf827443e7cc5.svg",
+    "static/media/icon-star.svg": "/social-proof-section/static/media/icon-star.2d8e7b7cb342bc812e9df51d276eaa78.svg",
+    "main.f47368dd.css.map": "/social-proof-section/static/css/main.f47368dd.css.map",
+    "main.aeea4458.js.map": "/social-proof-section/static/js/main.aeea4458.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ba64e72.css",
-    "static/js/main.d32f60dc.js"
+    "static/css/main.f47368dd.css",
+    "static/js/main.aeea4458.js"
   ]
 }
