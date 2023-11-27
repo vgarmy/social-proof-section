@@ -1,4 +1,5 @@
 import './App.css';
+import Customers from './customers/Customers';
 import Lead from './lead/Lead'
 import Starratings from './starratings/Starratings';
 
@@ -8,9 +9,7 @@ function App() {
       <div className="grid">
         <Lead />
         <Starratings />
-        <div className="box_customer"><div>three</div></div>
-        <div className="box_customer"><div>four</div></div>
-        <div className="box_customer"><div>five</div></div>
+        <Customers />
       </div>
     </div>
   );

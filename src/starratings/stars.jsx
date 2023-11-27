@@ -1,4 +1,6 @@
 import React from 'react';
+import StarStar from '../images/icon-star.svg'
+import NonStar from '../images/icon-star-none.svg'
 
 const StarRating = ({ rating }) => {
   return (
@@ -7,7 +9,7 @@ const StarRating = ({ rating }) => {
         return (
           <img
             key={index}
-            src={index < rating ? 'social-proof-section/images/icon-star.svg' : 'social-proof-section/images/icon-star-none.svg'}
+            src={index < rating ? StarStar : NonStar }
             alt="star"
             style={{ width: '25px', height: '25px' }}
           />

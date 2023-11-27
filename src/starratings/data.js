@@ -1,6 +1,6 @@
 const dataStarRatings = [
     {
-      "stars": "2",
+      "stars": "5",
       "info": "Rated 5 Stars in Reviews",
     },
     {

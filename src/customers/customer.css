@@ -1,0 +1,48 @@
+.box_customer {
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+    color: var(--White);
+    letter-spacing: 0.05rem;
+    line-height: 1.1rem;
+    gap: 5rem;
+}
+
+.box_customer_card{
+    width: 100%;
+    padding: 2rem;
+    border-radius: 1rem;
+    background: var(--Very-Dark-Magenta);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    flex-basis: calc(33.33333333333333%);
+}
+
+.box_customer_card_user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.box_customer_card_user img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.box_customer_card_user_info_name{
+    font-weight: 700;
+    color: var(--Light-Grayish-Magent);
+}
+
+.box_customer_card_user_info_status{
+    font-weight: 500;
+    color: var(--Soft-Pink);
+}
+
+.box_customer_card_qoute{
+    font-weight: 500;
+    color: var(--Light-Grayish-Magenta);
+}

@@ -7,11 +7,3 @@
     max-width: 1440px;
     width: 100%;
 }
-
-.box_customer {
-    background-color: purple;
-    display: flex;
-    flex-basis: calc(33.33333333333333%);
-    justify-content: center;
-    padding: 4rem;
-}
