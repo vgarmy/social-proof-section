@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/social-proof-section/static/css/main.f47368dd.css",
-    "main.js": "/social-proof-section/static/js/main.aeea4458.js",
+    "main.css": "/social-proof-section/static/css/main.10313fcf.css",
+    "main.js": "/social-proof-section/static/js/main.222f054a.js",
     "index.html": "/social-proof-section/index.html",
     "static/media/bg-pattern-bottom-desktop.svg": "/social-proof-section/static/media/bg-pattern-bottom-desktop.32aa6571dc718836bdfc.svg",
+    "static/media/bg-pattern-bottom-mobile.svg": "/social-proof-section/static/media/bg-pattern-bottom-mobile.593835ec67fd27ee2a62.svg",
     "static/media/bg-pattern-top-desktop.svg": "/social-proof-section/static/media/bg-pattern-top-desktop.9d4ba9c9b19e4c6be1e6.svg",
+    "static/media/bg-pattern-top-mobile.svg": "/social-proof-section/static/media/bg-pattern-top-mobile.58eed600d32e18ece9dc.svg",
     "static/media/icon-star-none.svg": "/social-proof-section/static/media/icon-star-none.0ef601d58f5072e0faabf827443e7cc5.svg",
     "static/media/icon-star.svg": "/social-proof-section/static/media/icon-star.2d8e7b7cb342bc812e9df51d276eaa78.svg",
-    "main.f47368dd.css.map": "/social-proof-section/static/css/main.f47368dd.css.map",
-    "main.aeea4458.js.map": "/social-proof-section/static/js/main.aeea4458.js.map"
+    "main.10313fcf.css.map": "/social-proof-section/static/css/main.10313fcf.css.map",
+    "main.222f054a.js.map": "/social-proof-section/static/js/main.222f054a.js.map"
   },
   "entrypoints": [
-    "static/css/main.f47368dd.css",
-    "static/js/main.aeea4458.js"
+    "static/css/main.10313fcf.css",
+    "static/js/main.222f054a.js"
   ]
 }
