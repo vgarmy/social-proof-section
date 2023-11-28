@@ -4,7 +4,7 @@ import dataCustomer from './dataCustomer'
 
 const listCustomer = dataCustomer.map(dataCustomer =>
 
-    <div className='box_customer_card'>
+    <div className='box_customer_card' key={dataCustomer.name}>
         <div className="box_customer_card_user">
             <img src={dataCustomer.img} alt="avatar" />
             <div className='box_customer_card_user_info'>
@@ -13,7 +13,7 @@ const listCustomer = dataCustomer.map(dataCustomer =>
             </div>
         </div>
         <p className='box_customer_card_qoute'>
-            {dataCustomer.quote}
+            "{dataCustomer.quote}"
         </p>
     </div>
 );

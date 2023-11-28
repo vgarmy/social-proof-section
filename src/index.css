@@ -30,9 +30,9 @@ body {
   justify-content: center;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 600px) {
   body {
-    padding: 1rem;
     height: auto;
+    background: url('./images/bg-pattern-top-mobile.svg') top left no-repeat, url('./images/bg-pattern-bottom-mobile.svg') bottom right no-repeat;
   }
 }

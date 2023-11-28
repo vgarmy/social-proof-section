@@ -1,22 +1,24 @@
 .box_customer {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 4rem;
     color: var(--White);
     letter-spacing: 0.05rem;
     line-height: 1.1rem;
-    gap: 5rem;
+    gap: 3rem;
 }
 
 .box_customer_card{
     width: 100%;
-    padding: 2rem;
+    padding: 2.5rem 2.5rem 1rem 2.5rem;
     border-radius: 1rem;
     background: var(--Very-Dark-Magenta);
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
     flex-basis: calc(33.33333333333333%);
+    height: 100%;
 }
 
 .box_customer_card_user{
@@ -43,6 +45,41 @@
 }
 
 .box_customer_card_qoute{
-    font-weight: 500;
+    font-weight: 400;
     color: var(--Light-Grayish-Magenta);
+    font-size: 1.1rem;
 }
+
+.box_customer_card:last-child{
+    margin-top: 3rem;
+}
+
+.box_customer_card:nth-child(2){
+    margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 1180px) {
+    .box_customer {
+        padding: 3rem;
+        gap: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .box_customer {
+        padding: 1rem;
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .box_customer_card{
+        padding: 2.5rem;
+    }
+    .box_customer_card:last-child{
+        margin-top: 0;
+    }
+    
+    .box_customer_card:nth-child(2){
+        margin-top: 0;
+    }
+  }
+  
